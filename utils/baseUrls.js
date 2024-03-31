@@ -1,5 +1,5 @@
 const API_URLS = {
-  base: 'http://127.0.0.1:5000', 
+  base: 'https://backend-5db4.onrender.com', 
   login: '/login',
   register: '/register',
   upload:'/upload',
