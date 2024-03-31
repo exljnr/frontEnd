@@ -31,13 +31,13 @@ function InnerPage() {
      <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
        <img
          alt=""
-         src="assets/s1.jpg"
+         src="assets/screenImg1.jpg"
          className="h-40 w-full object-cover sm:h-56 md:h-full"
        />
 
        <img
          alt=""
-         src="assets/s2.jpg"
+         src="assets/screenImg2.jpg"
          className="h-40 w-full object-cover sm:h-56 md:h-full"
        />
      </div>
