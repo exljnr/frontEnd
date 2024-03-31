@@ -117,7 +117,7 @@ function VerificationScreen() {
     if (otpInput === storedOtpCode) {
       console.log("Success! OTP matched.");
 
-      const baseUrl = "http://127.0.0.1:5000"; //Remember to change localhost to production
+      const baseUrl = "https://filesharing-iota.vercel.app/upload"; //Remember to change localhost to production
       let qrData = `${baseUrl}?phoneNumber=${Data.outletPhoneNumber}`;
       let qrSize = "250x250";
       let charsetSource = "ISO-8859-1";
