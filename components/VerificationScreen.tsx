@@ -117,7 +117,7 @@ function VerificationScreen() {
     if (otpInput === storedOtpCode) {
       console.log("Success! OTP matched.");
 
-      const baseUrl = "https://filesharing-mpqa9pzlc-exljnrs-projects.vercel.app/upload"; //Remember to change localhost to production
+      const baseUrl = "https://project-frontend-five-pi.vercel.app/upload"; //Remember to change localhost to production
       let qrData = `${baseUrl}?phoneNumber=${Data.outletPhoneNumber}`;
       let qrSize = "250x250";
       let charsetSource = "ISO-8859-1";
